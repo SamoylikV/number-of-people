@@ -52,7 +52,7 @@ while True:
         cv2.circle(img, (x + w // 2, y + h // 2), (w // 2), (0, 255, 0), 2)
         roi_gray = gray[y:y + h, x:x + w]
         roi_color = img[y:y + h, x:x + w]
-    img = cv2.resize(img, (0, 0), fx=3, fy=1.5)
+    img = cv2.resize(img, (0, 0), fx=3, fy=2.5)
     cv2.imshow('img', img)
     # kek = cv2.IMREAD_COLOR(img, -1)
     # cv2.imshow('img', kek)
