@@ -41,7 +41,7 @@ while True:
         x2 = 0
         if int(format(len(faces))) > max_people:
             print(
-                f'ВНИМАНИЕ, В ПОМЕЩЕНИИ НАХОДИТСЯ {format(len(faces))} ЧЕЛОВЕК, ЭТУ ПРИВЫШАЕТ НОРМУ НА {int(format(len(faces))) - max_people}')
+                f'ВНИМАНИЕ, В ПОМЕЩЕНИИ НАХОДЯТСЯ {format(len(faces))} ЧЕЛОВЕК, ЭТУ ПРЕВЫШАЕТ НОРМУ НА {int(format(len(faces))) - max_people} ЧЕЛОВЕК')
         else:
             print('кол-во лиц:', format(len(faces)))
         # if ToBeTrueOrNotToBeTrue == 1:
